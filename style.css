@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "Adonais";
+    src: url(fonts/Adonais.ttf);
+}
+
+@font-face {
+    font-family: "Geek";
+    src: url(fonts/geek.ttf);
+}
+
+
+
+
+#book {
+    width: 250px;
+    height: 250px;
+    background: linear-gradient(45deg,rgba(42, 123, 155, 1) 0%, rgba(87, 199, 133, 1) 50%, rgba(237, 221, 83, 1) 100%);
+    border-radius: 0px;
+    margin: 0px 100px 0px 0px;
+
+}
+
+#booktext{
+    position: relative;
+    left: 85px;
+}
+
+body{
+    background-color: rgb(252, 252, 252);
+}
+
+#mainboard{
+    background-color: rgb(255, 222, 150);
+
+
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 80px;
+    margin-left: 80px;
+    text-align: left;
+    border: 3px solid rgb(197, 169, 108);
+    padding: 0px 0px 0px 20px;
+
+}
+
+h1{
+
+    font-family: "Adonais";
+
+
+}
+
+
+
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+
+button{
+    align-content: center;
+}
