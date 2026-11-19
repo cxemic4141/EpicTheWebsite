@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+
+
+    <title>External JS Example</title>
+
+    <!-- The defer attribute ensures the script runs after the HTML parses -->
+
+    
+
+</head>
+
+<body>
+
+    <h1>DEMETER - Goddess of agriculture</h1>
+
+    <div>
+
+        <h2>Main info</h2>
+
+        <p>Demeter is the Olympian Goddess of agriculture, grain and bread. She is the second child of Rhea and Cronus out of 6 other offsprings</p>
+
+    </div>
+
+    
+
+
+
+    <div>
+
+        <h2>Stories</h2>
+
+        <div>
+
+        <h3>GIGANTES</h3>
+
+        <p></p>
+
+        </div>
+
+        <div>
+
+        <h3>APOLLODARUS</h3>
+
+        <p></p>
+
+        </div>
+
+    </div>
+
+
+
+    <div>
+
+        <h2>Connections/Relationships</h2>
+
+        <p></p>
+
+    </div>
+
+
+
+    <h2>Trivia</h2>
+
+
+
+</body>
+
+
+
+</html>
