@@ -1,0 +1,1 @@
+let Deities = ["Aphrodite"]
