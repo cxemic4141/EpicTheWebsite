@@ -1,0 +1,103 @@
+    body {
+            background: #fffefd;
+            font-family:'Times New Roman', Times, serif;
+         }   
+
+.homepage {
+    position: relative;
+    height: 50px;
+
+    background-color:#594129;
+    background-size: 50%;
+    
+}
+
+.navbar ul {
+    list-style-type: none;
+    background-color:#594129;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #594129;
+}
+
+.navbar li{
+    float: left;
+}
+
+ .olympus{
+    position:relative;
+    display: inline-block;
+ }
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;  
+}
+
+.topleft {
+    position: absolute;
+    top: 80px;
+    left: 50px;
+    color: #594129;
+    font-size: 200px
+}
+
+.belowtopleft {
+    position: absolute;
+    top: 260px;
+    left: 50px;
+    color: #594129;
+    font-style:italic;
+    font-size: 75px;
+}
+
+.belowbelowtopleft {
+    position: absolute;
+    top: 350px;
+    left: 50px;
+    color: #594129;
+    font-weight: normal;
+    font-size: 30px;
+
+    width: 400px;
+}
+.centeredtitle {
+    position: absolute;
+    text-align: center;
+    color: #594129;
+}
+
+.Gods {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    max-width: 1200px;
+    margin: 0 auto
+}
+
+.Gods img {
+    width: calc(33.33% - 10px);
+    height: auto;
+    display: block;
+}
+
+h3 {
+    color:#594129;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+h1 {
+    text-align: center;
+}
+
