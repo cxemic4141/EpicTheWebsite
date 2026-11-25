@@ -1,47 +1,54 @@
 <!DOCTYPE html>
 <html>
-<link rel = "stylesheet" href="style.css">
-
+<link rel = "stylesheet" href="assets\styles.css">
+<link rel = "stylesheet" href="assets\quiz.css">
 
 <head>
 <title>Epic The Website: The Trial</title>
 </head>
 
 
-
-
-
-
-
-
 <body>
+    <div class="homepage">
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="olympian.html">Olympians</a></li>
+                <li><a href="QuizPage.html">Quiz</a></li>
+
+            </ul>
+        </nav>
+        <h1 id = "TitleHeader">Epic The website</h1>
 
 
-<img src="images/Slicer.png" id = "slicer">
 
 <div id = "mainheader">
     <!--<img src="images/banner.png" id = "header_bg">-->
-    <h1 style = "text: Geek">EPIC</h1>
-    <h1>The website</h1>
+    <h1>The Trial</h1>
+    <p>Find out which Deity aligns with you!</p>
+</div>
+
+
+<div id = "quiz_div">
+
+
+    <h1 id = "questionnare_quiz">Question here</h1>
+    <p id = "question_counter">0/10</p>
+    <div id = "quiz_choice_container">
+
+        <button id = "quiz_choice" data-favored_deity="">Choice
+
+        </button>
+
+
+
+    </div>
+
+    <script src="Quiz.js"></script>
 
 </div>
 
-<img src="images/Slicer.png" id = "slicer">
-
-
-<h1 id = "questionnare_quiz">The website</h1>
-<p id = "question_counter">0/10</p>
-<div id = "quiz_choice_container">
-
-    <button id = "quiz_choice" data-favored_deity="">Choice
-
-    </button>
-
-
-
-</div>
-
-<script src="Quiz.js"></script>
 </body>
 
 

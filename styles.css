@@ -1,0 +1,67 @@
+body {
+    background: #fffefd;
+    font-family:'Times New Roman', Times, serif;
+    }
+
+#TitleHeader{
+    text-align: right;
+}
+
+
+@font-face {
+    font-family: "CapitalisTypOasis";
+    src: url(fonts/CapitalisTypOasis.ttf);
+}
+
+h1{
+    text-align: center;
+    font-family: "CapitalisTypOasis";
+}
+
+h2{
+    font-family: "CapitalisTypOasis";
+}
+
+h3{
+    font-family: "CapitalisTypOasis";
+    color:#594129;
+    font-weight: lighter;
+    font-size: 45px;
+}
+
+
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',;
+    text-align: center;
+}
+
+.homepage {
+    position: relative;
+    height: 50px;
+
+    background-color:#594129;
+    background-size: 50%;
+
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    background-color:#594129;
+    padding: 0px;
+    margin: 0px;
+}
+.navbar a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #594129;
+}
+
+.navbar li{
+    float: left;
+}
