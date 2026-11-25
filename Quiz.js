@@ -22,7 +22,7 @@ let questions = [
   ["What is your ideal weekend?",
   [
     ["Hosting a massive party with great music, food, and zero bedtime.", ["Poseidon", "Aphrodite", "Artemis"]],
-    ["Going on a solo hike, camping, or spending time around animals", ["Artemis","Persephone","Demeter"]],
+    ["Going on a solo hike, camping, or spending time around animals.", ["Artemis","Persephone","Demeter"]],
     ["Curled up at home reading, researching, or learning a new skill.", ["Athena","Demeter","Hades"]],
     ["Traveling somewhere new on a whim without an itinerary.", ["Artemis", "Apollo", "Persephone"]]
   ]
