@@ -1,0 +1,120 @@
+body {
+        background-color: #fffefd;
+        font-family:'Times New Roman', Times, serif;
+    }
+    h3 {
+        margin-top: 50px;
+        font-weight: lighter;
+        font-size: 50px;
+        text-align: center;
+        display: block;
+        margin-bottom: 0;
+        color: #e6aa52;
+    }
+
+    h2 {
+        margin-top: 20px;
+        text-align: center; 
+        font-weight: lighter; 
+        font-size: 35px;
+        display: block;
+        margin-bottom: 20px;
+        color:#e6aa52;
+    }
+
+    .secondtitle {
+        font-size: 30px;
+        text-align: center;
+        display: block;
+        font-style: italic;
+        margin-top: 0;
+        color: #e6aa52;
+        margin-bottom: 0;
+    }
+
+    p {
+        margin: auto; 
+        text-align: center; 
+        color:#e6aa52;
+        margin-bottom: 20px;
+    }
+
+    h1 {
+        font-size: 25px;
+        margin-top: 20px;
+        text-align: center; 
+        font-weight: lighter; 
+        display: block;
+        margin-bottom: 20px;
+        color:#e6aa52;
+    }
+
+    .homepage {
+    position: relative;
+    height: 50px;
+
+    background-color:#594129;
+    background-size: 50%;     
+    }
+    .navbar ul {
+    list-style-type: none;
+    background-color:#594129;
+    padding: 0px;
+    margin: 0px;
+    }
+    .navbar a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    text-align: center;
+    }
+    .navbar a:hover {
+    background-color: #594129;
+    }
+    .navbar li{
+    float: left;
+    }
+    .information {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 15px
+    }
+
+    .information div {
+        padding: 15px;
+        border-radius: 10px;
+        min-height: 150px;
+    }
+
+    .facts,
+    .trivia {
+        grid-column: 1 / -1;
+        border: 2px solid #e6aa52;
+    }
+
+    .relationships {
+        grid-column: 1;
+        border: 2px solid #e6aa52;
+    }
+
+    .beliefs {
+        grid-column: 2;
+        border: 2px solid #e6aa52;
+    }
+
+    .events {
+        grid-column: 1 / -1;
+        display: flex;
+        flex-direction:column;
+        gap: 15px;
+        border: 2px #e6aa52;
+    }
+    .event1,
+    .event2,
+    .event3 {
+        border: 2px solid #e6aa52;
+        padding: 15px;
+        border-radius: 10px;
+        min-height: 150px;
+    }
