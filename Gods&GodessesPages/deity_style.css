@@ -81,7 +81,7 @@ body {
         gap: 15px
     }
 
-    li {
+    .my-list li {
             color: inherit;
     }
 
