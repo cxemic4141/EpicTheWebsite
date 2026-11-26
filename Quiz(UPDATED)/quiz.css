@@ -1,0 +1,38 @@
+@font-face {
+    font-family: "CapitalisTypOasis";
+    src: url(fonts/CapitalisTypOasis.ttf);
+}
+
+#questionnare_quiz{
+    text-align: left;
+    font-size: 30px;
+}
+
+#quiz_div{
+    margin: 70px;
+}
+
+#quiz_choice_container{
+    display: grid;
+    grid-template-columns: 300px, 300px, 300px;
+    grid-template-rows: 10px, 10px, 10px;
+    gap: 1em;
+    margin-left: 50px;
+}
+
+#quiz_choice{
+    width: 500px;
+    height: 100px;
+    font-size: 20px;
+    text-align: left;
+    font: "CapitalisTypOasis";
+    color: #e6aa52;
+    border: 2px solid #e6aa52;
+    background-color: #fffefd;
+    margin-bottom: 20px;
+}
+
+#question_counter{
+    text-align: left;
+    font-size: 30px;
+}

@@ -1,0 +1,73 @@
+body {
+    background: #fffefd;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    }
+#TitleHeader{
+    text-align: right;
+    margin-top: 50px;
+}
+@font-face {
+    font-family: "CapitalisTypOasis";
+    src: url(fonts/CapitalisTypOasis.ttf);
+}
+h1{
+    font-family: "CapitalisTypOasis";
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+    display: block;
+    margin-bottom: 0;
+    color: #e6aa52;
+}
+h2{
+    font-family: "CapitalisTypOasis";
+    text-align: center;
+}
+h3{
+    font-family: "CapitalisTypOasis";
+    color:#594129;
+    font-weight: lighter;
+    font-size: 45px;
+}
+p{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode',;
+    text-align: center;
+    font-size: 30px;
+    text-align: center;
+    display: block;
+    font-style: italic;
+    margin-top: 0;
+    color: #e6aa52;
+    margin-bottom: 0;
+}
+.homepage {
+    position: relative;
+    height: 50px;
+
+    background-color:#594129;
+}
+.navbar ul {
+    list-style-type: none;
+    background-color:#594129;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a {
+    color:#ffffff;
+    text-decoration: none;
+    padding: 15px 25px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover {
+    background-color: #594129;
+}
+.navbar li{
+    float: left;
+}
+.navbar {
+    width:100%;
+}
