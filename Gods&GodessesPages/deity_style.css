@@ -81,6 +81,10 @@ body {
         gap: 15px
     }
 
+    li {
+            color: inherit;
+    }
+
     .information div {
         padding: 15px;
         border-radius: 10px;
