@@ -81,10 +81,6 @@ body {
         gap: 15px
     }
 
-    .my-list li {
-            color: inherit;
-    }
-
     .information div {
         padding: 15px;
         border-radius: 10px;
