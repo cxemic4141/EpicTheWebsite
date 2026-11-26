@@ -119,8 +119,40 @@ body {
         min-height: 150px;
     }
 
+
+#Aphrodite{
+        background-color: #ef92d5;
+}
+
+#Apollo{
+        background-color: #ebc85b;
+}
+
+#Athena{
+        background-color: #6286e4;
+}
+
 #Demeter{
-
         background-color: #182d0a;
+}
 
+#Hades{
+        background-color: #151a2f;
+}
+
+
+#Persephone{
+        background-color: #221b41;
+}
+
+#Poseidon{
+        background-color: #3bc4c1;
+}
+
+#Artemis{
+        background-color: #223517;
+}
+
+#Ares{
+        background-color: #2a0c0c;
 }
